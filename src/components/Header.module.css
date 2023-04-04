@@ -1,9 +1,11 @@
 .header {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   background-color: aqua;
-  background-image: url(../images/resized.jpg);
-  padding-bottom: 400px;
+  background-image: url(../images/palm-tree.jpg);
+  padding-bottom: 600px;
   background-size: cover;
+  overflow: hidden;
 }
