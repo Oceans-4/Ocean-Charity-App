@@ -1,10 +1,11 @@
-import Nav from "./Nav";
+import Header from "./Header";
+
 
 const Home = () => {
   return (
     <>
-      <Nav />
-      <div>Homepage</div>
+      <Header />
+     
     </>
   );
 };
