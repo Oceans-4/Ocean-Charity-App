@@ -1,13 +1,21 @@
+import water from "./../images/deep-blue.jpg";
+import beach from "./../images/beach.jpg";
+import TextInfo from "./TextInfo";
+
 const HomeInfo = () => {
   return (
-    <section className="bg-[#576CBC] p-10 flex flex-wrap items-center">
-      <div className="w-1/2 text-center">
-        <h1 className="text-white text-2xl font-bold ">Go green; breathe clean. Wipe out pollution before it wipes you out. Keep the oceans blue, the planet green and the animals safe. We have got only one Earth.</h1>
-      </div>
-      <div className="w-1/2 text-center">
-        <h1 className="text-white text-2xl font-bold ">Let's make a change!</h1>
-      </div>
-    </section>
+    <div>
+      <section className="m-6">
+        <div className="flex flex-wrap py-8 justify-center">
+          <TextInfo title="Helping the Ocean, one day at a time" text="Text goes here" image={water} />
+          <img style={{ height: "350px", width: "350px" }} src={water} />
+        </div>
+        <div className="flex flex-wrap py-8 justify-center">
+          <img style={{ height: "350px", width: "350px" }} src={beach} />
+          <TextInfo title="Helping the Ocean, one day at a time" text="Text goes here" image={water} />
+        </div>
+      </section>
+    </div>
   );
 };
 
