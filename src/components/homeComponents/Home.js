@@ -5,7 +5,6 @@ import HomeMission from "./HomeMission";
 const Home = () => {
   return (
     <>
-      <Header />
       <HomeMission />
       <HomeInfo />
     </>
