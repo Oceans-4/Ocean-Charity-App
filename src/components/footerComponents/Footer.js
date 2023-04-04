@@ -1,5 +1,6 @@
 import "./Footer.css";
-import { LogoFacebook, LogoInstagram, LogoLinkedin, LogoNodejs, LogoTwitter } from "react-ionicons";
+import { LogoFacebook, LogoInstagram, LogoLinkedin, LogoTwitter } from "react-ionicons";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -28,10 +29,14 @@ const Footer = () => {
       </ul>
       <ul className="text-white flex flex-row justify-center mt-6">
         <li className="px-4">
-          <a>Home</a>
+          <Link to="/">
+            <a>Home</a>
+          </Link>
         </li>
         <li className="px-4">
-          <a>About</a>
+          <Link to="/about">
+            <a>About</a>
+          </Link>
         </li>
         <li className="px-4">
           <a>Support</a>
