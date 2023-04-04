@@ -1,5 +1,5 @@
-import water from "./../images/deep-blue.jpg";
-import beach from "./../images/beach.jpg";
+import water from "./../../images/deep-blue.jpg";
+import beach from "./../../images/beach.jpg";
 import TextInfo from "./TextInfo";
 
 const HomeInfo = () => {

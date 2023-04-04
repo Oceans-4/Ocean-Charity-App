@@ -1,4 +1,4 @@
-import Nav from "./Nav";
+import Nav from "./navComponents/Nav";
 import classes from "./Header.module.css";
 
 const Header = () => {

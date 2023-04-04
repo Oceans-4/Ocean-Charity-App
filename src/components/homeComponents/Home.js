@@ -1,4 +1,4 @@
-import Header from "./Header";
+import Header from "../Header";
 import HomeInfo from "./HomeInfo";
 import HomeMission from "./HomeMission";
 
